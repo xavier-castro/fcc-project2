@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: cornflowerblue;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#header-container {
+    color: white;
+    background: cornflowerblue;
+}
+
+#container {
+    border-radius: 2%;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+    background: rgb(255, 253, 243);
+    border: 2px solid black;
+}
+
+.row {
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.row label {
+    font-size: 22px;
+}
+
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+#dropdown {
+    margin: 15px;
+    height: 30px;
+    width: 100px;
+    font-size: 1.1em;
+}
+
+.question {
+    font-weight: bold;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    font-size: 1.1em;
+    margin: 20px;
+}

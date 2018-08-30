@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Survery Form</title>
+</head>
+
+<body>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="header-container">
+        <h1 id="title">Operating System Survey</h1>
+    </div>
+
+    <div id="container">
+        <p id="description">Express your opinions about your current OS with this form</p>
+        <form id="survey-form">
+            <div class="row">
+                <label for="name" id="name-label">Name:</label>
+                <input class="input-field" type="text" name="name" id="name" placeholder="Enter your name" required>
+                <br>
+                <label for="email" id="email-label">Email:</label>
+                <input class="input-field" type="email" name="email" id="email" placeholder="Enter your email" required>
+                <br>
+
+                <label for="number" id="number-label">Age:</label>
+                <input class="input-field" style="width: 50px;" type="number" name="number" id="number" min="1" max="115" placeholder="22">
+            </div>
+            <div class="row">
+                <label class="question">What operating system (OS) are you currently using</label>
+                <br>
+                <select name="operating-system" id="dropdown">
+                    <option value="windows">Windows</option>
+                    <option value="mac">MacOS</option>
+                    <option value="linux">Linux</option>
+                </select>
+            </div>
+            <div class="row">
+                <label class="question">How would you rate your experience with your OS?</label>
+                <br>
+                <input type="radio" name="radio-button" value="love">
+                <label>Love it</label>
+                <br>
+
+                <input type="radio" name="radio-button" value="happy">
+                <label>Happy</label>
+                <br>
+
+                <input type="radio" name="radio-button" value="satisfied">
+                <label>Satisfied</label>
+                <br>
+
+                <input type="radio" name="radio-button" value="change">
+                <label>Looking to change</label>
+            </div>
+            <div class="row">
+                <label class="question">What feature(s) are you looking forward to the most in the next update?</label>
+                <br>
+                <input type="checkbox" name="features" value="responsiveness">
+                <label>Responsiveness</label>
+                <br>
+
+                <input type="checkbox" name="features" value="speed">
+                <label>Speed</label>
+                <br>
+
+                <input type="checkbox" name="features" value="compatability">
+                <label>Software Compatability</label>
+                <br>
+
+                <input type="checkbox" name="features" value="customization">
+                <label>Customization</label>
+                <br>
+
+                <input type="checkbox" name="features" value="battery-life">
+                <label>Battery life</label>
+            </div>
+            <div class="row">
+                <label class="question">What would you add or do differently to make your user experience better?</label>
+                <br>
+                <textarea cols="100" rows="20"></textarea>
+            </div>
+            <button id="submit" type="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+
+</html>
